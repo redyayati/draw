@@ -4,10 +4,10 @@ let doodleClassifier ;
 let resultsDiv ;
 
 function setup() {
-  canvas = createCanvas(400, 400);
+  canvas = createCanvas(600, 600);
   clearButton = createButton('clear');
   clearButton.mousePressed(clearCanvas);
-  background(255);
+  background(250);
   doodleClassifier = ml5.imageClassifier('DoodleNet' , modelReady) ;
   resultsDiv = createDiv('Model Loading') ; 
 }
