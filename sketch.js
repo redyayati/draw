@@ -33,7 +33,7 @@ function clearCanvas(){
 }
 function draw() {
   if (mouseIsPressed) {
-    strokeWeight(16);
+    strokeWeight(22);
     line(mouseX,mouseY,pmouseX,pmouseY) ;
   }
 }
